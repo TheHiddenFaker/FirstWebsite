@@ -1,0 +1,239 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Times, "Times New Roman", serif;
+    background-image: url(roadster-dontpanic.jpg);
+    background-size: cover;
+}
+.nav-index {
+    padding: 0 auto;
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+    padding: 5px;
+    display: inline-block;
+}
+.web-index {
+    font-size: 22px;
+}
+.title {
+    float: left;
+}
+.title p {
+    font-style: bold;
+    margin-left: 15px;
+}
+.title a {
+    color: white;
+}
+.title a:link {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: red;
+}
+.title a:hover {
+    color: darkturquoise;
+}
+.login {
+    float: right;
+    margin-right: 15px;
+}
+.login ul li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.login ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+}
+.login li {
+    float: right;
+    
+}
+.login a {
+    color: white;
+}
+.login a:link {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+.login a:hover {
+    color: darkturquoise;
+}
+.profile {
+    float: right;
+    margin-right: 15px;
+}
+.profile ul li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.profile ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+}
+.profile li {
+    float: right;
+    
+}
+.profile a {
+    color: white;
+}
+.profile a:link {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+.profile a:hover {
+    color: darkturquoise;
+}
+.container-body {
+    text-align: left;
+    border: none;
+    background-color: darkgrey;
+    height: 260px;
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 180px;
+    padding-top: 40px;
+}
+.context-body {
+    float: none;
+    line-height: 2; 
+}
+.context-body p {
+    font-size: 23px;
+    font-style: bold;
+}
+.login-box, .register-box {
+    height: 460px;
+    width: 600px;
+    margin-left: 620px;
+    margin-top: 100px;
+    color: black;
+    padding-left: 20px;
+    background-color: aliceblue;
+}
+.input-index, .input-register {
+    margin: 0;
+    padding: 0;
+}
+.input-index h2, .input-register h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+}
+.UsernameInput, .PasswordInput {
+    font-size: 23px;
+    padding-left: 45px;
+    margin-top: 30px;
+    line-height: 2;
+    display: inline-block;
+    width: 100px;
+}
+.input-register lable {
+    font-size: 23px;
+    padding-left: 45px;
+    margin-top: 30px;
+    line-height: 2;
+    display: inline-block;
+    width: 130px;
+}
+.text1, .text2, .text3, .text4, .text5 {
+    height: 40px;
+    width: 270px;
+    margin-left: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.remember-me {
+    margin-top: 50px;
+    font-size: 20px;
+    margin: 13px;
+    display: inline-block;
+}
+.checkbox {
+    height: 20px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.loginButton, .registerButton {
+    padding-top: 5px;
+    margin-left: 200px;
+    color: black;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+}
+.btn1 {
+    background-color: darkcyan;
+    color: white;
+    width: 70px;
+    height: 40px;
+    margin-top: 55px;
+}
+.btn2 {
+    width: 70px;
+    height: 40px;
+    color: black;
+    margin-left: 7px;
+}
+.btn3 {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: darkcyan;
+    margin-top: 30px;
+}
+.btn4 {
+    width: 100px;
+    height: 40px;
+    color: black;
+    margin-left: 7px;
+}
+.homepage {
+    margin: 0;
+    padding: 0;
+}
+.menu-bar {
+    margin-left: 750px;
+}
+.menu-bar ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.menu-bar ul {
+    list-style-type: none;
+}
+.menu-bar li {
+    float: none;
+    display: inline-block;
+    margin-top: 5px;
+    font-style: bold;
+    margin-left: 5px;
+}
+.menu-bar a:link {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 8px;
+}
+.menu-bar a:hover {
+    color: darkturquoise;
+}
